@@ -1,0 +1,13 @@
+
+    <app-component-a>
+        <p> {{dataService.counter}}</p>
+    </app-component-a>
+
+    <header> Counter</header>
+
+
+    <h1> Now It's Nav Child</h1>
+    <app-header [childMessage] ="parentMessage"></app-header>
+    <app-header (messageEvent) ="receiveMessage($event)"></app-header>
+    <p>{{Message}}</p>
+    
