@@ -19,4 +19,7 @@ export class DataService {
     this.counter=0;
     return 0;
   }
+  sum(a: number , b:number){
+    return a+b;
+  }
 }
